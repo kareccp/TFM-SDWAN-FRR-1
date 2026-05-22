@@ -1,0 +1,25 @@
+loading app flowmanager/flowmanager.py
+loading app ryu.app.ofctl_rest
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app None of DPSet
+creating context dpset
+creating context wsgi
+instantiating app flowmanager/flowmanager.py of FlowManager
+Created flowmanager
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.app.ofctl_rest of RestStatsApi
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(169) wsgi starting up on http://0.0.0.0:8080
+(169) accepted ('10.0.1.1', 55714)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.006948
+(169) accepted ('10.0.1.1', 50275)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.000610
+(169) accepted ('10.0.1.1', 33534)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.001298
+(169) accepted ('10.0.1.1', 10909)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.000676
+(169) accepted ('10.0.1.1', 25944)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.001367
+(169) accepted ('10.0.1.1', 20275)
+10.0.1.1 - - [22/May/2026 10:57:31] "POST /stats/flowentry/add HTTP/1.1" 200 115 0.001002ccommand terminated with exit code 137
